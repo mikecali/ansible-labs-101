@@ -40,8 +40,9 @@ Restart your machine and try running vagrant again.
 - ansible.cfg
 - inventory
 - bootstrap-node.sh
-- ansible-install.sh
-- ansible-tower-install.sh
+- ansible-install.yaml
+- playbook.yaml
+- inventory-test.yaml
 
 ## Connecting the dots:
 Before you run vagrant up, make sure that you updated the Vagrantfile to your desired configuration. Specifically use the box that are available from https://atlas.hashicorp.com/boxes/. The entry on the current vagrant file are Datacom specific boxes and is not available from atlas.
