@@ -1,0 +1,4 @@
+*.vagrant
+*.retry
+*.work
+*.disk*
